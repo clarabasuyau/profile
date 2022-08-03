@@ -41,6 +41,7 @@ p {
   box-shadow: 4px 4px 2px 1px rgb(0 0 0 / 10%);
   border-radius: 4px;
   margin: 20px 0px;
+  padding: 20px;
   text-align: center;
 }
 
@@ -51,6 +52,8 @@ p {
 .list-inline {
   list-style: none;
   padding-left: 0px;
+  font-size: 40px;
+  margin: 15px;
 }
 
 ul {
@@ -72,6 +75,11 @@ ul {
   color: white;
   padding: 20px 20px;
   border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+.btn-blue:hover {
+  background-color: #04F06A;
 }
 
 @media (max-width: 960px) {
